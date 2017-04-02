@@ -23,7 +23,11 @@ CC = clang $(FLAGS) $(INC)
 
 ## List of Functions
 
-SRC_FT = main
+SRC_FT = main \
+		 rand \
+		 key_mouse \
+		 demine \
+		 interface
 
 ## List of Utilities
 
