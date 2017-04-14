@@ -142,12 +142,14 @@ int		main(int argc, char **argv)
 	int sr;
 	
 	srand(time(NULL));
-	if ((sr = ft_rand_ab(0, 3)) == 0)
+	if ((sr = ft_rand_ab(0, 4)) == 0)
 		system("afplay EvenS_Tell.mp3 &");
 	else if (sr == 1)
 		system("afplay music.mp3 &");
-	else
+	else if (sr == 2)
 		system("afplay MuraMasa.mp3 &");
+	else
+		system("afplay Tetris_n10 &");
 	int size;
 	int prc;
 
